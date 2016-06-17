@@ -22,7 +22,7 @@ public class livraria {
     /**
      * Operação de Web service
      */
-    @WebMethod(operationName = "add_")
+    @WebMethod(operationName = "add")
     public int add(@WebParam(name = "i") int i, @WebParam(name = "j") int j) {
         int k = i + j;
         return k;
